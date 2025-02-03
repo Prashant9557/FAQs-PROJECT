@@ -1,0 +1,9 @@
+function FAQItem({ content }) {
+  return <div dangerouslySetInnerHTML={{ __html: content }} />;
+}
+{faqs.map((faq) => (
+    <div key={faq.id} style={{ marginBottom: "2rem" }}> {/* Use faq.id as key */}
+      <h3>{faq.question}</h3>
+      <div dangerouslySetInnerHTML={{ __html: faq.answer }} />
+    </div>
+  ))}

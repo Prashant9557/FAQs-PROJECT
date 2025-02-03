@@ -1,0 +1,46 @@
+* Ensure text starts from the left inside the editor */
+.ql-editor {
+  text-align: left !important;
+}
+
+/* Ensure paragraphs also align left */
+.ql-editor p {
+  text-align: left !important;
+}
+
+/* Fix for toolbar buttons if affected */
+.ql-toolbar {
+  text-align: left;
+}
+
+.editor-container {
+    text-align: left;
+    width: 100%;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4831e0;
+    transform: scale(1.1);
+  }
+  
+    /* marginTop: "10px",
+    padding: "10px 15px",
+    backgroundColor: "#007bff",
+    color: "white",
+    border: "none",
+    borderRadius: "5px",
+    cursor: "pointer",
+    fontSize: "16px",
+  }} */
